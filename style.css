@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    margin: auto;   
+    font-family: "Share", sans-serif;
+}
+
+.hi {
+    margin-bottom: 12px;
+    .font-size: 56px;
+}
+
+.connect {
+    padding: 0;
+    margin: 0 0 0 4px;
+    list-style: none;
+    .font-size: 24px;
+}
+
+.connect li {
+    display: inline;
+    margin-right: 1px;
+}
+
+.connect a {
+    color: white;
+}
+
+.connect a:hover .fa-twitter-square, .connect a:active .fa-twitter-square, .connect a:focus .fa-twitter-square {
+    color: #1DCAFF;
+}
+
+.connect a:hover .fa-instagram, .connect a:active .fa-instagram, .connect a:focus .fa-instagram {
+    color: #E1306C;
+}
+
+.connect a:hover .fa-linkedin, .connect a:active .fa-linkedin, .connect a:focus .fa-linkedin {
+    color: #0077B5;
+}
+
+.connect a:hover .fa-github-square, .connect a:active .fa-github-square, .connect a:focus .fa-github-square {
+    color: #BDBFC0;
+}
+
+/* Desktop */
+@media (min-width: 1367px) {
+    .hi {
+        font-size: 84px;
+    }
+    
+    .connect {
+        font-size: 48px;
+    }
+}
+
+/* Desktop */
+@media (max-width: 1366px) {
+    .hi {
+        font-size: 56px;
+    }
+    
+    .connect {
+        font-size: 24px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .hi {
+        font-size: 84px;
+    }
+    
+    .connect {
+        font-size: 48px;
+    }
+}
+
+/* Landscape phone */
+@media (max-width: 768px) {
+    .hi {
+        font-size: 56px;
+    }
+    
+    .connect {
+        font-size: 36px;
+    }
+}
+
+/* Portrait phone */
+@media (max-width: 544px) {
+    .hi {
+        font-size: 56px;
+    }
+    
+    .connect {
+        font-size: 36px;
+    }
+}
+
