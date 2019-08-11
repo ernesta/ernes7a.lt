@@ -50,6 +50,10 @@ body, html {
     color: #BDBFC0;
 }
 
+.connect a:hover .fa-tumblr-square, .connect a:active .fa-tumblr-square, .connect a:focus .fa-tumblr-square {
+    color: #34526f;
+}
+
 /* Desktop */
 @media (min-width: 1367px) {
     .hi {
