@@ -38,6 +38,10 @@ body, html {
     color: #1DCAFF;
 }
 
+.connect a:hover .fa-medium, .connect a:active .fa-medium, .connect a:focus .fa-medium {
+    color: #BDBFC0;
+}
+
 .connect a:hover .fa-instagram, .connect a:active .fa-instagram, .connect a:focus .fa-instagram {
     color: #E1306C;
 }
