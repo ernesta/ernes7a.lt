@@ -42,20 +42,12 @@ body, html {
     color: #BDBFC0;
 }
 
-.connect a:hover .fa-instagram, .connect a:active .fa-instagram, .connect a:focus .fa-instagram {
-    color: #E1306C;
-}
-
 .connect a:hover .fa-linkedin, .connect a:active .fa-linkedin, .connect a:focus .fa-linkedin {
     color: #0077B5;
 }
 
 .connect a:hover .fa-github-square, .connect a:active .fa-github-square, .connect a:focus .fa-github-square {
     color: #BDBFC0;
-}
-
-.connect a:hover .fa-tumblr-square, .connect a:active .fa-tumblr-square, .connect a:focus .fa-tumblr-square {
-    color: #34526f;
 }
 
 /* Desktop */
